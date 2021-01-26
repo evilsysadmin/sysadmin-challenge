@@ -13,10 +13,12 @@ Just a flask api , behind a nginx reverse proxy , and a self signed cert for ext
 
   Test the gig with
 
-  curl -L http://localhost --insecure
+  curl -L https://localhost --insecure
 
 *  Requirements:
 
+  - openssl
+  - docker
   - docker-compose
   - gnu make
   - curl
